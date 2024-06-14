@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+.section-p1 {
+    padding: 60px 100px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background: #813311;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 80px;
+    position: relative;
+    justify-content: space-between;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #FFD700;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #FFD700;
+    position: absolute;
+    bottom: -4px;
+    left: 57px;
+}
+
+#navbar .back {
+    background-color: white;
+    color: #813311;
+    border: 0;
+    padding: 7px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 750;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#navbar .back:hover {
+    background-color: #FFD700;
+    color: #813311;
+}
+
+#image .contact_us {
+    width: 1518px;
+    height: 600px;
+}
+
+#contactus .cont {
+    color: #813311;
+    padding: 10px 0 0 10px;
+    font-size: 28px;
+    font-weight: 790;
+}
+
+#contact {
+    padding: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#contact .contact-box {
+    width: 350px;
+    height: 160px;
+    text-align: center;
+    padding: 15px 10px;
+    box-shadow: 10px 10px 24px rgb(0, 0, 0, 0.03);
+    border: 1px solid #813311;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    justify-content: space-between;
+}
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-left-title h2{
+    font-weight: 600;
+    color: #813311;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #813311;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: auto;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #813311;
+    border-radius: 40px;
+}
+
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus{
+    border: 2px solid #FFD700;
+}
+
+.contact-inputs::placeholder{
+    color: gray;
+}
+
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: #813311;
+    cursor: pointer;
+}
+
+.contact-left button:hover {
+    color: #813311;
+    background-color: #FFD700;
+}
+
+.contact-right img{
+    width: 500px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px 280px 50px;
+    font-size: 18px;
+    min-width: 400px;
+}
+
+table thead tr {
+    background-color: #813311;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid gray;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background: #813311;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#footer .navbar1 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}

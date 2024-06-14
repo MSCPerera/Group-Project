@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+h1 {
+    font-size: 93px;
+    line-height: 64px;
+    color: white;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #813311;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 60px 100px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #813311;
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 80px;
+    position: relative;
+    justify-content: space-between;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #FFD700;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #FFD700;
+    position: absolute;
+    bottom: -4px;
+    left: 70px;
+}
+
+#navbar .sign-in {
+    background-color: white;
+    color: #813311;
+    border: 0;
+    padding: 8px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 750;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#navbar .sign-in:hover {
+    background-color: #FFD700;
+    color: #813311;
+}
+
+#hero {
+    background-image: url("Gampaha_City_Image.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 90%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .he-image {
+    padding: 50px;
+    border-radius: 110px;
+}
+
+#hero .register button {
+    background-color: white;
+    color: #813311;
+    border: 0;
+    padding: 15px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 1000;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+#hero .register button:hover {
+    color: white;
+    background-color: #813311;
+}
+
+#news .ne-box {
+    background-color: #813311;
+    width: 1519px;
+    height: 300px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#news .latest {
+    color: white;
+    padding: 10px 0 5px 15px;
+    font-size: 28px;
+    font-weight: 790;
+}
+
+#images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#images .gam01 {
+    padding: 0;
+    width: 869px;
+    height: 400px;
+}
+
+#images .gam02 {
+    padding: 0;
+    width: 650px;
+    height: 400px;
+}
+
+#contactus .cont {
+    color: #813311;
+    padding: 20px 0 8px 20px;
+    font-size: 28px;
+    font-weight: 790;
+}
+
+#contact {
+    padding: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#contact .contact-box {
+    width: 350px;
+    height: 160px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgb(0, 0, 0, 0.03);
+    border: 1px solid #813311;
+    border-radius: 10px;
+    margin: 10px 70px 50px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px;
+    background: #813311;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#footer .navbar1 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}
+

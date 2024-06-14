@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+.section-p1 {
+    padding: 60px 100px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background: #813311;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 80px;
+    position: relative;
+    justify-content: space-between;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #FFD700;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 40%;
+    height: 2px;
+    background: #FFD700;
+    position: absolute;
+    bottom: -4px;
+    left: 57px;
+}
+
+#navbar .back {
+    background-color: white;
+    color: #813311;
+    border: 0;
+    padding: 7px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 750;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+#navbar .back:hover {
+    background-color: #FFD700;
+    color: #813311;
+}
+
+#contactus .cont {
+    color: #813311;
+    padding: 30px 0 10px 10px;
+    font-size: 28px;
+    font-weight: 790;
+}
+
+.img {
+    width: 850px;
+    height: 895px;
+    float: right;
+    border-right: 40;
+    padding: 50px 90px 20px 20px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 50px 100px 30px;
+    font-size: 18px;
+    min-width: 400px;
+    padding-bottom: 50px;
+}
+
+table thead tr {
+    background-color: #813311;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+
+table tbody tr {
+    border-bottom: 1px solid gray;
+}
+
+table .cap {
+    color: #813311;
+    padding: 0 0 20px 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background: #813311;
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#footer .navbar1 {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s ease;
+}
