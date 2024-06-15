@@ -60,10 +60,10 @@
 }
 
 #navbar .back {
-    background-color: white;
+    background-color: #fff;
     color: #813311;
     border: 0;
-    padding: 7px;
+    padding: 10px 30px;
     background-repeat: no-repeat;
     cursor: pointer;
     font-weight: 750;
@@ -81,18 +81,17 @@
     height: 90vh;
     width: 100%;
     background-size: cover;
-    background-position: top 25% right 90%;
+    background-position: top 80% right 90%;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
 #hero .register button {
-    float: left;
-    background-color: white;
-    color: #813311;
+    background-color: #813311;
+    color: #fff;
     border: 0;
     padding: 20px;
     background-repeat: no-repeat;
@@ -103,8 +102,8 @@
 }
 
 #hero .register button:hover {
-    color: white;
-    background-color: #813311;
+    color: #813311;
+    background-color: #FFD700;
 }
 
 #footer {
