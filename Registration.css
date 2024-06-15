@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+.section-p1 {
+    padding: 60px 100px;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #813311;
+}
+
+.container {
+    position: relative;
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0);
+}
+
+.container header {
+    font-size: 1.5rem;
+    color: #813311;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.container .form {
+    margin-top: 30px;
+}
+
+.form .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-box label {
+    color: #813311;
+    font-weight: 600;
+}
+
+.form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: black;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 0 15px;
+}
+
+.input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.input-box input::placeholder {
+    color: lightgray;
+}
+
+.form .column {
+    display: flex;
+    column-gap: 20px;
+}
+
+.select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 1rem;
+}
+
+.form button {
+    height: 55px;
+    width: 60%;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    margin: 50px 130px 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    font-weight: 400;
+    transition: all 0.2s ease;
+    background-color: #813311;
+}
+
+.form button:hover {
+    background-color: #ffd700;
+    color: #813311;
+}
